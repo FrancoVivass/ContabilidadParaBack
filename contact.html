@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastBooks Robles - Contacto</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Background waves -->
+    <div class='box'>
+        <div class='wave -one'></div>
+        <div class='wave -two'></div>
+        <div class='wave -three'></div>
+    </div>
+
+    <!-- Theme Switch -->
+    <div class="theme-switch" id="themeSwitch">
+        <div class="slider">
+            <span class="icon sun">🌙</span>
+            <span class="icon moon">☀️</span>
+        </div>
+    </div>
+
+    <!-- Weather Widget -->
+    <section class="weather-section">
+        <div id="caja" class="clima">
+            <h3 id="ubicacion"></h3>
+            <img id="icono-animado" src="" alt="" height="50" width="50">
+            <h4 id="temperatura-valor"></h4>
+            <h4 id="temperatura-descripcion"></h4>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <header id="header-container"></header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="contact-page">
+            <div class="contact-hero">
+                <h1>Contáctanos</h1>
+                <p class="subtitle">Estamos aquí para ayudarte</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-section">
+                    <h2>Envíanos un mensaje</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 1234-5678">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="asunto">Asunto *</label>
+                            <input type="text" id="asunto" name="asunto" required placeholder="¿En qué podemos ayudarte?">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" rows="6" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Enviar mensaje</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <div class="contact-info-section">
+                    <h2>Información de contacto</h2>
+                    
+                    <div class="contact-info-item">
+                        <h3>📧 Correo electrónico</h3>
+                        <p><a href="mailto:info@fastbooksrobles.com">info@fastbooksrobles.com</a></p>
+                        <p><a href="mailto:soporte@fastbooksrobles.com">soporte@fastbooksrobles.com</a></p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>📞 Teléfono</h3>
+                        <p>+54 9 11 1234-5678</p>
+                        <p>Lunes a Viernes: 9:00 - 18:00 hs</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>📍 Dirección</h3>
+                        <p>Instituto Paula Robles</p>
+                        <p>Buenos Aires, Argentina</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>🌐 Redes sociales</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/francisco.depaularobles.9/" target="_blank">Facebook</a>
+                            <a href="https://www.instagram.com/franciscodepaularoblessuperior/" target="_blank">Instagram</a>
+                            <a href="https://ar.linkedin.com/in/ramiro-blasi-176b79b3" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>⏰ Horario de atención</h3>
+                        <p><strong>Lunes a Viernes:</strong> 9:00 - 18:00 hs</p>
+                        <p><strong>Sábados:</strong> 9:00 - 13:00 hs</p>
+                        <p><strong>Domingos:</strong> Cerrado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

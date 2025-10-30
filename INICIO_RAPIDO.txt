@@ -1,0 +1,83 @@
+╔══════════════════════════════════════════════════════════════╗
+║                 FASTBOOKS ROBLES - INICIO RÁPIDO             ║
+║              Sistema Contable - Instituto Paula Robles       ║
+╚══════════════════════════════════════════════════════════════╝
+
+📌 CÓMO ABRIR EL SITIO WEB
+════════════════════════════════════════════════════════════════
+
+OPCIÓN 1: Servidor Local con Python (RECOMENDADO)
+--------------------------------------------------
+1. Abre una terminal/PowerShell en esta carpeta
+2. Ejecuta: python -m http.server 8000
+3. Abre tu navegador en: http://localhost:8000
+4. ¡Listo! El sitio debería funcionar perfectamente
+
+OPCIÓN 2: Abrir directamente el archivo
+----------------------------------------
+1. Doble clic en "index.html"
+2. Se abrirá en tu navegador predeterminado
+
+⚠️ NOTA: Si el header y footer no cargan, usa la Opción 1
+
+
+📂 ESTRUCTURA DEL PROYECTO
+════════════════════════════════════════════════════════════════
+
+ContabilidadEstatica/
+├── index.html          → Página principal
+├── about.html          → Sobre nosotros  
+├── contact.html        → Contacto
+├── header.html         → Header común
+├── footer.html         → Footer común
+├── css/
+│   └── styles.css      → Todos los estilos
+├── js/
+│   └── script.js       → Toda la funcionalidad
+└── assets/
+    ├── img/            → Imágenes y logos
+    └── weather/        → Iconos del clima
+
+
+✨ FUNCIONALIDADES INCLUIDAS
+════════════════════════════════════════════════════════════════
+
+✅ Modo Oscuro/Claro (clic en el switch superior izquierdo)
+✅ Widget del Clima (requiere permitir geolocalización)
+✅ Diseño Responsive (funciona en móviles y tablets)
+✅ Menú móvil interactivo
+✅ Formulario de contacto funcional
+✅ Animaciones y transiciones suaves
+✅ Header y Footer cargados automáticamente
+
+
+📱 NAVEGACIÓN
+════════════════════════════════════════════════════════════════
+
+Inicio        → index.html
+Acerca de     → about.html
+Contacto      → contact.html
+
+
+🛠️ SI ALGO NO FUNCIONA
+════════════════════════════════════════════════════════════════
+
+Problema: Header/Footer no aparecen
+Solución: Usa un servidor local (Python, Node, PHP)
+
+Problema: El clima no se muestra
+Solución: Permite acceso a la ubicación en tu navegador
+
+Problema: Imágenes no cargan
+Solución: Verifica que la carpeta "assets" esté completa
+
+
+📞 MÁS INFORMACIÓN
+════════════════════════════════════════════════════════════════
+
+Lee el archivo README.md para instrucciones detalladas.
+
+Desarrollado por: Instituto Paula Robles
+Año: 2025
+
+¡Gracias por usar FastBooks Robles! 🎉
